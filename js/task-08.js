@@ -28,7 +28,7 @@ form.addEventListener("submit", (event) => {
 // Виведи об'єкт із введеними даними в консоль і очисти значення полів форми методом reset.
 
 // const form = document.querySelector(".login-form");
-// console.log(form.elements);
+console.log(form.elements);
 // form.addEventListener("submit", (event) => {
 // event.preventDefault();
 //   if (form.elements.email.value === "" || form.elements.password.value === "") {
