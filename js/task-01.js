@@ -6,6 +6,11 @@ const listOfcategoriesRef = [...categoriesRef].map((item) => {
   console.log("Elements: ", item.lastElementChild.children.length);
 });
 
+for (let i = 0; i < 10; i++) {
+  setTimeout(() => {
+    alert(i);
+  }, 100);
+}
 //-----2-----
 // const categoriesRef = document.querySelector("#categories");
 // console.log("Number of categories:", categoriesRef.children.length);
@@ -31,5 +36,3 @@ const listOfcategoriesRef = [...categoriesRef].map((item) => {
 // elem.previousElementSibling - вибере вузол-елемент «зліва» від elem (його попереднього сусіда).
 // elem.nextSibling - вибере елемент «праворуч» від elem (його наступного сусіда)
 // elem.nextElementSibling - вибере вузол-елемент «праворуч» від elem (його наступного сусіда).
-
-
